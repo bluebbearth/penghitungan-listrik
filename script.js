@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Menampilkan hasil
     document.getElementById("hasil").innerHTML = `
             <p>Total Pemakaian Listrik: ${pemakaian.toFixed(2)} kWh</p>
-            <p>Total Biaya: Rp ${biaya.toFixed(2)}</p>
+            <p>Total Biaya Tagihan: Rp ${biaya.toFixed(2)}</p>
         `;
   });
 
