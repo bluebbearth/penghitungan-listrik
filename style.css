@@ -1,52 +1,47 @@
-/* General Styling */
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
-  /* Ganti warna solid dengan gambar */
-  background-image: url("bgn.jpg"); /* Path ke gambar */
-  background-size: cover; /* Agar gambar menutupi seluruh layar */
-  background-position: center; /* Pusatkan gambar */
-  background-attachment: fixed; /* Membuat background tetap saat scroll */
-  color: #333; /* Warna teks */
+  background-image: url("bgn.jpg"); 
+  background-size: cover; 
+  background-position: center; 
+  background-attachment: fixed; 
+  color: #333;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-/* Container Styling */
 .container {
-  background: linear-gradient(to bottom right, #32cd32, #ffd700); /* Hijau ke kuning */
+  background: linear-gradient(to bottom right, #32cd32, #ffd700); 
   padding: 30px 20px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   max-width: 400px;
   width: 100%;
-  position: absolute; /* Membuat container bebas dipindah */
-  right: 10%; /* Geser ke kanan */
-  top: 50%; /* Posisikan di tengah secara vertikal */
-  transform: translateY(-50%); /* Pusatkan vertikal */
-  color: #fff; /* Warna teks putih */
+  position: absolute; 
+  right: 10%; 
+  top: 50%;
+  transform: translateY(-50%); 
+  color: #fff; 
   z-index: 10;
 }
 
-/* Header Styling */
 header h1 {
-  font-weight: 700; /* Tebal untuk judul */
+  font-weight: 700;
   font-size: 2rem;
-  color: #006400; /* Hijau tua */
+  color: #006400;
   text-align: center;
 }
 
 header p {
-  font-weight: 300; /* Tipis untuk subtitle */
+  font-weight: 300; 
   font-size: 1rem;
   color: whitesmoke;
   text-align: center;
 }
 
-/* Form Styling */
 form {
   display: flex;
   flex-direction: column;
@@ -79,7 +74,7 @@ input::placeholder {
 }
 
 button {
-  background-color: #006400; /* Hijau tua */
+  background-color: #006400; 
   color: #fff;
   border: none;
   cursor: pointer;
@@ -87,7 +82,7 @@ button {
 }
 
 button:hover {
-  background-color: #32cd32; /* Hijau cerah */
+  background-color: #32cd32; 
 }
 
 .reset-btn {
@@ -105,7 +100,6 @@ button:hover {
   background-color: #ddd;
 }
 
-/* Result Styling */
 .result {
   margin-top: 20px;
   text-align: center;
@@ -119,7 +113,6 @@ button:hover {
   color: #e74c3c;
 }
 
-/* Responsive Design */
 @media (max-width: 480px) {
   .container {
     padding: 20px;
